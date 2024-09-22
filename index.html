@@ -1,0 +1,64 @@
+<html lang="ru">
+<header>
+
+    <script>
+
+    </script>
+</header>
+    <body>
+        <div>
+            <img class="background_header" src="./img/background_header.png" alt="">
+            <img class="logo_header" src="./img/logo.png" alt="">
+            <div>
+                <h1 class="header_text">
+                    <p class="header_text_row_1">Превратите</p>
+                    <p class="header_text_row_2">уездный город</p>
+                    <p class="header_text_row_3">в столицу</p>
+                    <p class="header_text_row_4">земного шара</p>
+                </h1>
+                <h2 class="header_subtext">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</h2>
+                <div class="buttons">
+                    <button class="button_black">Поддержать шахматную мысль</button>
+                    <button class="button_ghost">Подробнее о турнире</button>
+                </div>
+            </div>
+            <div class="runner">
+                <span>Дело помощи утопающим — дело рук самих утопающих! <b class="dot"></b> Шахматы двигают вперед не только культуру, но и экономику! <b class="dot"></b> Лед тронулся, господа присяжные заседатели!</span>
+            </div>
+        </div>
+    </body>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .background_header {
+        height: 100vh;
+        background: #E9DED4;
+        width: 100%;
+    ;
+    }
+
+    .runner {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+    }
+
+    .runner span {
+        display: inline-block;
+        padding-left: 100%;
+        animation: marquee 10s linear infinite;
+    }
+
+    @keyframes marquee {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+</style>
+</html>
